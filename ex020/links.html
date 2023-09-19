@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #d6d58e;
+        
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: darkred;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(30, 30, 197);
+    }
+
+    .especial {
+        background-color: rgb(245, 124, 124);
+    }
+
+
+    .especial::before {
+        content: '---> ';
+        color: black;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    .especial::after {
+        content: ' <---';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+    }
+</style>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Middoken" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCtZeGEest3GP3xhHnIwRwlQ" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/luiz-magon-910738270/" target="_blank">Linkedin</a></li>
+    </ul>
+</body>
+</html>

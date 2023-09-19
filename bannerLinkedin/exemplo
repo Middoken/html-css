@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+                    CREATE TABLE luiz_henrique_magon (
+                        idade INT,
+                        cursando VARCHAR(100),
+                        front_end VARCHAR(100),
+                        back_end VARCHAR(100)
+                    )
+
+                    INSERT INTO luiz_henrique_magon (
+                        idade, cursando, front_end, back_end
+                    )
+                    VALUES (
+                        21,
+                        Análise e Desenvolvimento de sistemas,
+                        HTML CSS JavaScript,
+                        Java Python
+                    )
+                    
