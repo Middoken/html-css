@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamanho de fundo</title>
+    <title>Fundo Fixo de tela</title>
 </head>
 <style>
     body {
         height: 100vh;
         background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
-        background-position: center top;
+
+        /*
+
+        background-position: center center;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
+        background-attachment: fixed;
+
+        */
+
+        /*
+             Shorthand - background
+            color > image > position > repeat > attachment
+        */
+
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
     }
 
     main {
         background-color: white;
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
@@ -28,7 +42,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, assumenda? Omnis, enim explicabo autem nemo nihil magnam odio quae quasi ipsam accusantium esse, molestias harum quos mollitia consequuntur beatae perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, perspiciatis nostrum iste culpa adipisci sint optio. Sit enim id iste libero esse perspiciatis iure nemo qui repudiandae quaerat, vel exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit natus deserunt sed? At, aliquid deleniti a mollitia molestiae quia et ut ratione aperiam perspiciatis deserunt non temporibus explicabo animi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, assumenda? Omnis, enim explicabo autem nemo nihil magnam odio quae quasi ipsam accusantium esse, molestias harum quos mollitia consequuntur beatae perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, perspiciatis nostrum iste culpa adipisci sint optio. Sit enim id iste libero esse perspiciatis iure nemo qui repudiandae quaerat, vel exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit natus deserunt sed? At, aliquid deleniti a mollitia molestiae quia et ut ratione aperiam perspiciatis deserunt non temporibus explicabo animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam inventore accusantium quasi amet, commodi similique ratione vitae eaque, impedit illo sapiente quaerat corporis, deserunt molestiae! Omnis laboriosam minima corporis quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusamus pariatur quasi reprehenderit nemo magnam, nobis, similique recusandae natus repudiandae assumenda optio ipsa vel non, hic ut id voluptatum earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis omnis voluptatibus quisquam aperiam vero impedit ex labore accusamus minima numquam laudantium quidem necessitatibus enim mollitia, doloremque ipsum? Maiores, cumque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatibus eveniet iusto cupiditate voluptatum, voluptas consequatur saepe a totam, praesentium molestiae ipsum quisquam optio repellendus ex earum odio sunt neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit tenetur sunt ab, possimus nihil neque quod quisquam sequi, quidem blanditiis, repellat rerum ipsa quam! Maxime ratione commodi quod dolore? nostrum iste culpa adipisci sint optio. Sit enim id iste libero esse perspiciatis iure nemo qui repudiandae quaerat, vel exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit natus deserunt sed? At, aliquid deleniti a mollitia molestiae quia et ut ratione aperiam perspiciatis deserunt non temporibus explicabo animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam inventore accusantium quasi amet, commodi similique ratione vitae eaque, impedit illo sapiente quaerat corporis, deserunt molestiae! Omnis laboriosam minima corporis quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusamus pariatur quasi reprehenderit nemo magnam, nobis, similique recusandae natus repudiandae assumenda optio ipsa vel non, hic ut id voluptatum earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis omnis voluptatibus quisquam aperiam vero impedit ex labore accusamus minima numquam laudantium quidem necessitatibus enim mollitia, doloremque ipsum? Maiores, cumque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatibus eveniet iusto cupiditate voluptatum, voluptas consequatur saepe a totam, praesentium molestiae ipsum quisquam optio repellendus ex earum odio sunt neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit tenetur sunt ab, possimus nihil neque quod quisquam sequi, quidem blanditiis, repellat rerum ipsa quam! Maxime ratione commodi quo nostrum iste culpa adipisci sint optio. Sit enim id iste libero esse perspiciatis iure nemo qui repudiandae quaerat, vel exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit natus deserunt sed? At, aliquid deleniti a mollitia molestiae quia et ut ratione aperiam perspiciatis deserunt non temporibus explicabo animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam inventore accusantium quasi amet, commodi similique ratione vitae eaque, impedit illo sapiente quaerat corporis, deserunt molestiae! Omnis laboriosam minima corporis quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusamus pariatur quasi reprehenderit nemo magnam, nobis, similique recusandae natus repudiandae assumenda optio ipsa vel non, hic ut id voluptatum earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis omnis voluptatibus quisquam aperiam vero impedit ex labore accusamus minima numquam laudantium quidem necessitatibus enim mollitia, doloremque ipsum? Maiores, cumque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatibus eveniet iusto cupiditate voluptatum, voluptas consequatur saepe a totam, praesentium molestiae ipsum quisquam optio repellendus ex earum odio sunt neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit tenetur sunt ab, possimus nihil neque quod quisquam sequi, quidem blanditiis, repellat rerum ipsa quam! Maxime ratione commodi quo</p>
     </main>
 </body>
 </html>
