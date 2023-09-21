@@ -82,7 +82,7 @@ div#Imagem > pre {
 }
 
 div#Imagem2 {
-    background: url('imagens/background002.jpg') center right no-repeat fixed;
+    background: url('imagens/background002.jpg') center no-repeat fixed;
     background-size: cover;
     color: var(--cor1);
 }
