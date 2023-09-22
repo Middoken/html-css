@@ -9,6 +9,10 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 :root {
     --cor0: black;
     --cor1: white;
@@ -31,7 +35,7 @@ header > h1 {
     color: var(--cor1);
     font-family: var(--fonte-titulo);
     margin-bottom: -10px;
-    font-size: 5em;
+    font-size: 5.5vw;
 }
 
 header > p {
@@ -53,7 +57,7 @@ main {
 }
 
 main div pre{
-    font-size: 3em;
+    font-size: 3.5vw;
     font-family: var(--fonte-poesia);
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
