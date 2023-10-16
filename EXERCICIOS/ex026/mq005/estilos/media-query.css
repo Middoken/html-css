@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* As funcionalidades para o que está em menos de 768px, ou seja, 600px já foram setadas. Agora, são feitas as funcionalidades considerando quando for maior que 768px. */
+
 @media screen and (min-width: 768px) {
     /* Quando passar de 768px, o display volta a ficar sem a função de clicar e aparecer, logo após, o menu block faz com que aparaçam os itens, e logo após, o display inline-block deixa os itens ordenados em uma linha. */
     span#burguer {

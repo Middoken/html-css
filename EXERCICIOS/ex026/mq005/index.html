@@ -37,6 +37,8 @@
         </article>
     </main>
     <script>
+        /* Ajusta a questão do BUG da barra de clicar aparecer os itens estar sumindo por conta de antes de aumentar a tela, clicar na barra fazendo sumir e voltar ao normal, causando um BUG quando se aumentar a página e os itens somem. */
+        /* em 'mudouTamnho()' foi utilizado uma funcionalidade do JS chamada: onresize, que significa [ quando mudar o tamanho ]  */
         function mudouTamanho() {
             if (window.innerWidth >= 768) {
                 itens.style.display = 'block'
