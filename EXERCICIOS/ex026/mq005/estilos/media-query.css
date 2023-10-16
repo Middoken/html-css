@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    /* Quando passar de 768px, o display volta a ficar sem a função de clicar e aparecer, logo após, o menu block faz com que aparaçam os itens, e logo após, o display inline-block deixa os itens ordenados em uma linha. */
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    /* Ajusta o tamanho da tela quando passa dos 768px. */
+    main {
+        width: 768px;
+    }
+}
